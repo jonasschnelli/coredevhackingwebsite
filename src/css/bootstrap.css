@@ -4286,8 +4286,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display: block;
+  width:30px;
+  height:30px;  
 }
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
@@ -6756,5 +6758,28 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+#participants table {
+    width:100%;
+    text-align: left;
+}
+#participants table a {
+    color: #444;
+}
+#participants table td, #participants table th {
+    padding: 5px;
+}
+#participants table tr.ack td.status {
+    color: green;
+}
+#participants table tr.unknown td.status {
+    color: gray;
+}
+#participants table tr.nack td.status {
+    color: red;
+}
+#participants table th {
+    border-bottom: 1px solid #ddd;
 }
 /*# sourceMappingURL=bootstrap.css.map */
