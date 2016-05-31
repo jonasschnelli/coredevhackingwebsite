@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CoreDev Meetings and Conferences</title>
+    <title>CoreDev Events and Conferences</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
@@ -17,10 +17,11 @@
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/ekko-lightbox.min.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
@@ -56,7 +57,13 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="nextmeeting.html">Next Meeting</a>
+                        <a class="page-scroll" href="pastevents.html">Past Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="nextmeeting.html">Next Event</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="faq.html">FAQ</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#location">Location</a>
@@ -77,9 +84,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>COREDEV ZURICH 20 – 22 MAY 2016</h1>
+                <h1>CORE<span style="font-weight:100;">DEV</span> EVENTS</h1>
                 <hr>
-                <p>An invitation only developer meeting for hacking together on Bitcoin-Core and related projects.</p>
+                <p>Invitation only developer events for hacking together on Bitcoin-Core and related projects.</p>
+                <p>__No talks. No politics. Just code.__</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -91,10 +99,12 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">The Bitcoin-Core development team is distributed all over the world. Sometimes is good to come together and discuss and work face to face.</h2>
                     <hr class="light">
-                    <p class="text-faded">Next meeting will be in Zurich at 20-22 MAY 2016.</p>
-                    <p class="text-faded">Breakfast, Lunch & Dinner is provided thanks to our sponsors.<br />Decent conference room with 100MBit internet, beamer, Cafeteria directly in the center of Zurich.</p>
+                    <p class="text-faded">Last meeting was in <a href="zh_20-22_may_16.html" style="color:black;">Zurich at 20-22 MAY 2016.</a></p>
+                    <p class="text-faded">Next meeting: unknown.</p>
+                    <!--
+                    <p class="text-faded">Breakfast, Lunch & Dinner is provided thanks to our sponsors.<br />The meeting takes place in a modern conference room with hispeed internet, projector, cafeteria directly in the heart of Zurich.</p>
                     <p class="text-faded"></p>
-                    <a href="nextmeeting.html" class="btn btn-default btn-xl">Who is invited and who will attend?</a>
+                    <a href="nextmeeting.html" class="btn btn-default btn-xl">Who is invited and who will attend?</a>-->
                 </div>
             </div>
         </div>
@@ -113,23 +123,23 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Write Code</h3>
-                        <p class="text-muted">Hack down code together, share knowhow.</p>
+                        <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Write & Review Code</h3>
+                        <p class="text-muted">Write & Review code together. Get things done.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Review Code</h3>
-                        <p class="text-muted">Review code together, get things done</p>
+                        <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>No Talks</h3>
+                        <p class="text-muted">There will be no talks. No presentations. No distraction.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Proposals and concepts</h3>
-                        <p class="text-muted">Discuss proposals (very hard over IRC)</p>
+                        <i class="fa fa-4x fa-battery-full wow bounceIn text-primary"></i>
+                        <h3>No politics</h3>
+                        <p class="text-muted">There will be no political discussions.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -143,154 +153,61 @@
         </div>
     </section>
 
-
-    <section class="bg-dark" id="location">
+    <section id="sponsors">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Location</h2>
-                    <hr class="primary">
-                   <p>Technopark Zurich<br/>Technoparkstrasse 1<br/>
-8005 Zurich, Switzerland</p>
-                    <p><a href="http://www.technopark.ch/wp-content/uploads/2014/07/tp_how_to_find_us.pdf"><i class="fa fa-file-pdf-o fa-2x wow bounceIn"></i> How to find (PDF)</a></p>
-                    <p><a href="https://www.google.com/maps/place/Technopark,+Technoparkstrasse+1,+8005+Zürich,+Schweiz/@47.389844,8.5134361,17z/data=!3m1!4b1!4m2!3m1!1s0x47900a473dddd8e3:0xed9948c1f7b2b01a"><i class="fa fa-map-marker fa-2x wow bounceIn"></i> Google Maps</a></p>
-                    <div class="row no-gutter">
-                        <div class="col-lg-4 col-sm-6">
-                            <img src="img/zh/tp1.jpg"  class="img-responsive" alt="" />
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <img src="img/zh/tp2.jpg"  class="img-responsive" alt="" />
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <img src="img/zh/tp3.jpg"  class="img-responsive" alt="" />
-                        </div>
+                    <h2 class="section-heading">Our sponsors</h2>
+                    <hr class="dark" style="border-color: #555;">
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://cumberlandmining.com" target="_blank"><img src="img/Cumberland-Logo.png" class="img-responsive wow bounceIn" alt="Cumberland Mining" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://bitonic.com" target="_blank"><img src="img/bitoniclogo.png" class="img-responsive wow bounceIn" alt="Bitonic" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.btcc.com" target="_blank"><img src="img/btcc_logo_black.png" class="img-responsive wow bounceIn" alt="Bitonic" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.Blockstream.com" target="_blank"><img src="img/blockstream.png" class="img-responsive wow bounceIn" alt="Blockstream" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.bitflyer.jp" target="_blank"><img src="img/bitflyer.png" class="img-responsive wow bounceIn" alt="Blockstream" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.media.mit.edu/research/highlights/media-lab-digital-currency-initiative" target="_blank"><img src="img/mitlogo.png" class="img-responsive wow bounceIn" alt="MIT DCI" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.cipherx.com" target="_blank"><img src="img/ciphrex.png" class="img-responsive wow bounceIn" alt="Ciphrex" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.bitmain.com" target="_blank"><img src="img/bitmain.png" class="img-responsive wow bounceIn" alt="Bitmain" /></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!--
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Main Sponsor A
-                                </div>
-                                <div class="project-name">
-                                    -
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Main Sponsor B
-                                </div>
-                                <div class="project-name">
-                                    -
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <section id="sponsors">
-        <div class="container">
-            <h2>Our sponsors</h2>
-            <p>Under construction.<br /><br /></p>
-            <p>Please contact <a href="dev@jonasschnelli.ch">dev@jonasschnelli.ch</a></p>
-        </div>
-    </section>
-    
     <section class="bg-dark" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-9 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Who is organizing this?</h2>
                     <hr class="primary">
-                    <p>The CoreDev Hacking Meetings are currently organized by Jonas Schnelli and a team of volunteers</p>
+                    <p>The CoreDev hacking meetings are currently organized by Jonas Schnelli and Lucas Betschart.</p>
+                    <p>If you require travel subsidy, contact us and we will individually discuss it with our sponsors.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <div class="col-lg-3 col-lg-offset-2 text-center">
                     <i class="fa fa-comments fa-3x wow bounceIn"></i>
                     <p>IRC freenode #bitcoin-core-dev / jonasschnelli </p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-3 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:dev@jonasschnelli.ch">dev@jonasschnelli.ch</a> (0x29D4BCB6416F53EC)</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="img/swiss.png" class="fa fa-3x img-responsive bounceIn" alt="" width=60 data-wow-delay=".1s"></a>
+                    <p>With the help of Bitcoin Association Switzerland</p>
                 </div>
             </div>
         </div>
@@ -309,7 +226,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-
+    <script src="js/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    </script>
 </body>
 
 </html>

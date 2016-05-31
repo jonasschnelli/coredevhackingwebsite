@@ -55,11 +55,11 @@
                     <li>
                         <a class="page-scroll" href="index.html#about">About</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a class="page-scroll" href="pastevents.html">Past Events</a>
                     </li>
-                    <li class="active">
-                        <a class="page-scroll" href="#nextmeeting">Next Event</a>
+                    <li>
+                        <a class="page-scroll" href="nextmeeting.html">Next Event</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="faq.html">FAQ</a>
@@ -83,19 +83,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h4 class="section-heading">Next meeting: currently unscheduled.</h4>
-                    <!-- <hr class="light"/>
-                    <h6 class="section-heading"><br />The event is confirmed (32 invited, <span style="color: green;"><b>19</b> attending</span>, <span style="color: red;">13 not attending</span>, <span style="color: gray;">0 open</span>)</h6> -->
+                    <h4 class="section-heading">This event took place in Zurich from 20 May till 22 May 2016.</h4>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section id="participants">
+    <section id="participants">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Currently invited people</h2>
-                    <p>If an invitation is missing, please <a href="index.html#contact">contact</a> the organizers.</p>
+                    <h2 class="section-heading">invited people</h2>
                     <p>&nbsp;</p>
                     <table>
                         <tr><th>Nickname</th><th>Fullname</th><th>Role</th><th>Links</th><th>Status</th></tr>
@@ -177,8 +174,8 @@
                             <td class="status"><i class="fa fa-1x fa-check"></i> Confirmed</td>
                         </tr>
                         <tr class="ack">
-                            <td>lukejr</td>
-                            <td>Luke Dashr</td>
+                            <td>luke-jr</td>
+                            <td>Luke Dashjr</td>
                             <td>Core Developer</td>
                             <td>
                                 <a href="https://github.com/luke-jr"><i class="fa fa-2x fa-github"></i></a>
@@ -418,21 +415,77 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center" style="text-align:left;">
-                    <h1 class="section-heading">Proposed topics</h1>
-                    <p>There is <i>no</i> fix schedule nor are there fixed topics to cover during the event.</p>
-                    <hr class="dark" style="max-width:100%; border-color: #555; border-width:2px;"/>
-                    <h3>Review & improve the p2p net refactor</h3>
-                    <hr class="dark" style="max-width:100%; border-color: #aaa; border-width:1px;"/>
-                    <h3>Discuss P2P-layer end to end encryption</h3>
-                    <hr class="dark" style="max-width:100%; border-color: #aaa; border-width:1px;"/>
-                    <h3>Review & Test Segregated Witness</h3>
-                    <p>If it's already merged or ready for production before the meeting, we could focus on improving segwith further, writing wallet adoption guides, etc.</p>
-                    <hr class="dark" style="max-width:100%; border-color: #aaa; border-width:1px;"/>
+                    <h1 class="section-heading">Reports</h1>
+                    <p><a href="https://bitcoincore.org/en/meetings/2016/05/20/">Meeting summary</a></p>
+                    <p><a href="https://bitcoincore.org/logs/2016-05-zurich-meeting-notes.html">Full transscript</a></p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
+
+    <section class="bg-dark" id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Location</h2>
+                    <hr class="primary">
+                   <p>Kalkbreite Zürich<br/>Kalkbreitestrasse 6<br/>
+8003 Zurich, Switzerland</p>
+                    <p><a href="https://www.google.com/maps/place/Kalkbreitestrasse+6/@47.3742336,8.5212121,17z/data=!3m1!4b1!4m2!3m1!1s0x47900a18e013dfdb:0xdffd77d900b91ef4"><i class="fa fa-map-marker fa-2x wow bounceIn"></i> Google Maps</a></p>
+                    <div class="row no-gutter">
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/zh/kb1.jpeg" data-toggle="lightbox" data-title="Conference main room"><img src="img/zh/kb1.jpeg" alt="Conference main room" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/zh/kb2.jpeg" data-toggle="lightbox" data-title="Conference small room" ><img src="img/zh/kb2.jpeg" alt="Conference small room" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/zh/kb3.jpeg" data-toggle="lightbox" ><img src="img/zh/kb3.jpeg" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="img/zh/kb4.jpeg" data-toggle="lightbox" ><img src="img/zh/kb4.jpeg" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Sponsors of the event from 20-22 May 2016 in Zurich</h2>
+                    <hr class="dark" style="border-color: #555;">
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://cumberlandmining.com" target="_blank"><img src="img/Cumberland-Logo.png" class="img-responsive wow bounceIn" alt="Cumberland Mining" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://bitonic.com" target="_blank"><img src="img/bitoniclogo.png" class="img-responsive wow bounceIn" alt="Bitonic" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.btcc.com" target="_blank"><img src="img/btcc_logo_black.png" class="img-responsive wow bounceIn" alt="Bitonic" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.Blockstream.com" target="_blank"><img src="img/blockstream.png" class="img-responsive wow bounceIn" alt="Blockstream" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.bitflyer.jp" target="_blank"><img src="img/bitflyer.png" class="img-responsive wow bounceIn" alt="Blockstream" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.media.mit.edu/research/highlights/media-lab-digital-currency-initiative" target="_blank"><img src="img/mitlogo.png" class="img-responsive wow bounceIn" alt="MIT DCI" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.cipherx.com" target="_blank"><img src="img/ciphrex.png" class="img-responsive wow bounceIn" alt="Ciphrex" /></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" style="text-align:left;">
+                        <a href="https://www.bitmain.com" target="_blank"><img src="img/bitmain.png" class="img-responsive wow bounceIn" alt="Bitmain" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
